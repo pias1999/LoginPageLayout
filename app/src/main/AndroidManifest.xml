@@ -11,7 +11,7 @@
         android:theme="@style/Theme.LoginPageLayout">
         <meta-data
             android:name="com.google.android.actions"
-            android:resource="@xml/login_button_color" />
+            android:resource="@xml/buttoncurve" />
 
         <activity
             android:name=".MainActivity"
