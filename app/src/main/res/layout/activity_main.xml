@@ -52,7 +52,7 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:background="#f5f5f5"
-        android:orientation="horizontal"
+        android:orientation="vertical"
         android:paddingBottom="15dp">
 
         <EditText
@@ -62,7 +62,17 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:ems="10"
+            android:text="jack.taylor@gmail.com"
             android:inputType="textEmailAddress" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="22dp"
+            android:text="Wrong email"
+            android:textSize="15dp"
+            android:textColor="#FF0000"/>
+
     </LinearLayout>
 
     <LinearLayout
@@ -71,7 +81,6 @@
         android:layout_marginLeft="15dp"
         android:layout_marginRight="15dp"
         android:background="#f5f5f5"
-
         android:orientation="horizontal"
         android:paddingTop="10dp">
 
@@ -103,6 +112,7 @@
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
             android:ems="10"
+            android:text="abcdefgh"
             android:inputType="textPassword" />
 
         <TextView
